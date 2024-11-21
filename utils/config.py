@@ -285,7 +285,7 @@ class Config:
         self.sensor_cad_path = None # the path to the sensor cad file, "./cad/ipb_car.ply" for visualization
 
         # result saving settings
-        self.save_map: bool = False # save the neural point map model and decoders or not
+        self.save_map: bool = True # save the neural point map model and decoders or not
         self.save_merged_pc: bool = False # save the merged point cloud pc or not
         self.save_mesh: bool = False # save the reconstructed mesh map or not
 
